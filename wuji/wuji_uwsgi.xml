@@ -1,0 +1,7 @@
+<uwsgi>
+	<socket>:8077</socket>
+	<chdir>/home/www/wuji</chdir>
+	<module>wsgi</module>
+	<processes>4</processes>
+	<daemonize>/home/www/logs/uwsgi.log</daemonize>
+</uwsgi>
